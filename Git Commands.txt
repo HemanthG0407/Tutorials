@@ -1,0 +1,30 @@
+git config ->- It will shows the configuration actions available in git.
+git config --global user.name "Name" ->- It will give our name as username to git.
+git config --global user.email "Email" ->- It will give our email as email id to git.
+git config --list ->- It will list of settings in git.
+git config user.email ->- It will give only email id.
+clear ->- It will give clean screen by removing all the previous runs.
+cd ->- To change directory.
+pwd ->- Present working directory.
+cd .. ->- Change the directory to one step behind.
+cd ~ ->- It will take to home of the directory.
+git init ->- It will create empty git repository/create project/intialisation.
+ls ->- List of files in pwd.
+ls -la ->- It will show the hidden files in the pwd.
+working copy>staging>repository
+git add "filename" ->- It will add the provided file into repository.
+git add . ->- It will add all the available files into repository.
+git commit -m "comment" ->- It will commit the added files into repository.
+git status ->- It will help us to check the status of the working directory.
+git diff ->- It will check the difference between the files which is in working copy to repository.
+git diff --staged ->- It will check the difference between the files which is in staging to repository.
+git help --all ->- It will show all the available commands with description.
+git help <command> ->- It will show only particular description of mentioned command.
+git rm "filename" ->- It will remove file from repository and working copy.But it won't commit the changes until we do it.
+git mv "filename" "new filename" ->- It will rename file/
+git mv "filename" "foldername"/ ->- It will change the location of the file from one folder to another.
+git mv "filename" "foldername"/"new filename" ->- It will also change the location by renaming the file.
+git commit -am "Comment" ->- It will commit the changes directly from working copy.
+git checkout -- "filename" ->- It will undo changes which happend in working copy with repository copy.
+git reset HEAD "file name" ->- It will unstage the changes which are added to the repositroy but not commited.
+git checkout "commit id" -- "filename" ->- It will give us old version based on commit id of the file which we have commited previously, before doing this checking "git log" is best practice to get commit id.
