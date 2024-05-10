@@ -28,3 +28,7 @@ git commit -am "Comment" ->- It will commit the changes directly from working co
 git checkout -- "filename" ->- It will undo changes which happend in working copy with repository copy.
 git reset HEAD "file name" ->- It will unstage the changes which are added to the repositroy but not commited.
 git checkout "commit id" -- "filename" ->- It will give us old version based on commit id of the file which we have commited previously, before doing this checking "git log" is best practice to get commit id.
+git remote add "Nickname for repo" "github repo url" ->- It will link link the repository with gitbash.
+git remote ->- It will show the linked repositories with gitbash.
+git push -u "Nickname of the repo" master ->- It will push the workingcopy to Github repository.
+.gitignore :- We can create the file through IDE which we are using the in cloned repo. After creating it we need to give the file which needs to ignore. For example if we are pushing a change to the cloned repo through an IDE it will show default funtional files which are created by an IDE we can ignore the files by mentioning the file names in the .gitignore file.
