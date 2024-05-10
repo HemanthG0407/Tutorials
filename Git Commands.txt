@@ -31,4 +31,4 @@ git checkout "commit id" -- "filename" ->- It will give us old version based on 
 git remote add "Nickname for repo" "github repo url" ->- It will link link the repository with gitbash.
 git remote ->- It will show the linked repositories with gitbash.
 git push -u "Nickname of the repo" master ->- It will push the workingcopy to Github repository.
-.gitignore :- We can create the file through IDE which we are using the in cloned repo. After creating it we need to give the file which needs to ignore. For example if we are pushing a change to the cloned repo through an IDE it will show default funtional files which are created by an IDE we can ignore the files by mentioning the file names in the .gitignore file.
+.gitignore :- We can create the file through an IDE which we are using the in cloned repo. After creating it we need to give the file which needs to ignore. For example if we are pushing a change to the cloned repo through an IDE it will show default funtional files which are created by an IDE we can ignore the files by mentioning the file names in the .gitignore file.
